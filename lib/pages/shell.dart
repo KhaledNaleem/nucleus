@@ -15,6 +15,7 @@ class AppShell extends StatefulWidget {
 
 class _AppShellState extends State<AppShell> {
   bool _sidebarOpen = true;
+  // ignore: unused_field
   String _search = '';
 
   @override

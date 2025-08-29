@@ -9,10 +9,10 @@ class EmptyState extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Icon(Icons.inbox_outlined, size: 48, color: Theme.of(context).colorScheme.onSurface.withOpacity(0.5)),
+          Icon(Icons.inbox_outlined, size: 48, color: Theme.of(context).colorScheme.onSurface.withValues(alpha: .5)),
           const SizedBox(height: 12),
           Text('No products yet', style: Theme.of(context).textTheme.titleMedium),
-          Text('Use the assistant or search to get started', style: Theme.of(context).textTheme.bodySmall?.copyWith(color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6))),
+          Text('Use the assistant or search to get started', style: Theme.of(context).textTheme.bodySmall?.copyWith(color: Theme.of(context).colorScheme.onSurface.withValues(alpha: .6))),
         ],
       ),
     );

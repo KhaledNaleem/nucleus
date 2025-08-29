@@ -7,7 +7,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:nucleus_app/app.dart' show EGuardianApp;
 
+// ignore: unused_import
 import 'package:nucleus_app/main.dart';
 
 void main() {
